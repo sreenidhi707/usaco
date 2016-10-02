@@ -4,10 +4,12 @@
 #include "stdafx.h"
 
 int ride();
+int gift();
 
 int main()
 {
-	ride();
+	//ride();
+	gift();
 	return 0;
 }
 

@@ -4,7 +4,7 @@ PROG: ride
 LANG: C++
 */
 
-//#include "stdafx.h"
+#include "stdafx.h"
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
@@ -14,7 +14,8 @@ LANG: C++
 
 using namespace std;
 
-int main() {
+int ride() 
+{
 	ofstream fout("ride.out");
 	ifstream fin("ride.in");
 
