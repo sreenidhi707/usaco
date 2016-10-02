@@ -51,7 +51,7 @@ int32_t getval(vector< pair<string, int32_t> >& table, string s)
 	return table[get_id(table, s)].second;
 }
 
-int main(void) 
+int main(void)
 {
 	ofstream fout("gift1.out");
 	ifstream fin("gift1.in");
