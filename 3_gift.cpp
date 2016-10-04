@@ -4,7 +4,7 @@ PROG: gift1
 LANG: C++11
 */
 
-//#include "stdafx.h"
+#include "stdafx.h"
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
@@ -51,7 +51,7 @@ int32_t getval(vector< pair<string, int32_t> >& table, string s)
 	return table[get_id(table, s)].second;
 }
 
-int main(void)
+int gift(void)
 {
 	ofstream fout("gift1.out");
 	ifstream fin("gift1.in");

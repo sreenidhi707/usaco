@@ -5,11 +5,13 @@
 
 int ride();
 int gift();
+int friday();
 
 int main()
 {
 	//ride();
-	gift();
+	//gift();
+	friday();
 	return 0;
 }
 
